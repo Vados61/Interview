@@ -67,8 +67,10 @@ test_list = [
     '{{[(])]}}',
     '[[{())}]',
     '({[)}]',
-    '())))((('
+    '())))((()'
 ]
 
-for test in test_list:
-    validator(test)
+
+if __name__ == '__main__':
+    for test in test_list:
+        validator(test)
